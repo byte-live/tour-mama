@@ -1,0 +1,128 @@
+/* laptop device -- 1025px */
+@media screen and (max-width: 1200px) {
+    .banner-content h1 {
+        font-size: 48px;
+    }
+
+    .service-card {
+        padding: 80px 20px;
+    }
+
+    .story-image img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+
+    .review-card {
+        background-position: right 20px bottom 55px;
+        background-size: 180px 25px;
+    }
+
+    #footer {
+        height: 80px;
+    }
+
+}
+
+/* tablet device --  641px */
+@media screen and (max-width: 1024px) {
+    #banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-image {
+        width: 100%;
+    }
+
+    #service-card-container {
+        flex-direction: column;
+    }
+
+    .service-card {
+        max-width: 100%;
+    }
+
+    .story-card {
+        flex-direction: column;
+    }
+
+    .story-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .story-image {
+        width: 100%;
+    }
+
+    .review-card {
+        background-position: center bottom 10px;
+    }
+
+    .review-card p {
+        font-size: 18px;
+    }
+
+    #footer {
+        height: 60px;
+    }
+
+    #footer-left p {
+        font-size: 16px;
+    }
+
+    #footer-right img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Mobile device  --  425px */
+@media screen and (max-width: 640px) {
+
+    .btn,
+    .btn-white {
+        padding: 12px 20px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    .heading-content h2 {
+        font-size: 32px;
+    }
+
+    #country-card-container {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    #country-card-container h2 {
+        text-align: center;
+    }
+
+    .review-card p {
+        font-size: 16px;
+    }
+
+    #footer {
+        flex-direction: column;
+
+}
+
+    #footer-left p {
+        font-size: 14px;
+    }
+
+}
